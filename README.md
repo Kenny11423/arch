@@ -30,6 +30,15 @@ Finally exec it:
 ```
 ./arch-install.sh
 ```
+In case of invalid or corrupted package (PGP signature)
+ERROR: Failed to install packages to new root
+
+```
+pacman -Sy archlinux-keyring
+pacman-key --init
+pacman-key --populate archlinux
+pacstrap /mnt base linux linux-firmware
+```
 
 If you've reviewed the script and see the options suit to your use case, run it directly:
 
