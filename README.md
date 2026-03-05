@@ -48,7 +48,7 @@ git clone https://github.com/Kenny11423/arch.git --depth 1
 Make the post installation script executable (if it isn't already):
 
 ```
-cd archinit
+cd arch
 sudo chmod +x post-install.sh
 ```
 
