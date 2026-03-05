@@ -47,7 +47,7 @@ read -rp "Install additional AUR & community packages? [Y/N]: " install_pkgs
 if [[ $install_pkgs =~ ^[Yy]$ ]]; then
   if command -v paru &>/dev/null; then
     echo "Installing additional packages with paru..."
-    sudo -u "$real_user" paru -S --noconfirm --needed \
+    sudo -u "$real_user" paru -S --needed \
       btop htop atool zip unzip 7zip usbutils ranger \
       usbmuxd libimobiledevice android-tools udiskie udisks2 jmtpfs \
       powertop tlp asusctl supergfxctl rog-control-center \
