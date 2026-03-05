@@ -42,7 +42,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/Kenny11423/arch/main/arch-in
 You must clone the repository:
 
 ```
-git clone https://github.com/nixuris/archinit.git --depth 1
+git clone https://github.com/Kenny11423/arch.git --depth 1
 ```
 
 Make the post installation script executable (if it isn't already):
