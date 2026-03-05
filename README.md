@@ -11,7 +11,7 @@ If you want to change some part of the script.
 Grab the script with:
 
 ```
-curl https://raw.githubusercontent.com/nixuris/archinit/main/arch-install.sh -o arch-install.sh
+curl -L https://raw.githubusercontent.com/Kenny11423/arch/main/arch-install.sh -o arch-install.sh
 ```
 Review it with your editor of choice, example nano:
 
