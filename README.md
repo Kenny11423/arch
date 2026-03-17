@@ -58,11 +58,14 @@ Make the post installation script executable (if it isn't already):
 
 ```
 cd arch
+sudo chmod +x pkg-install.sh
 sudo chmod +x post-install.sh
+
 ```
 
 Run the script:
 
 ```
+sudo ./pkg-install.sh
 sudo ./post-install.sh
 ```
